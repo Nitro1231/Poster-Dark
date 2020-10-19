@@ -1,6 +1,13 @@
 @charset "utf-8";
 
 /*
+ * Dark-Theme Ver 0.1
+ * By Nitro
+ * https://nitr0.tistory.com/
+ * admin@nitrostudio.dev
+ */
+
+/*
  *
  * CSS CONTENTS:
  *
@@ -54,7 +61,7 @@ button, input[type=submit], input[type=reset], input[type=button] {
 input[type=text], input[type=email], input[type=password], input[type=submit], textarea {
 	-webkit-appearance: none;
 }
-input, select, textarea, button {
+div, input, select, textarea, button {
 	font-family: 'Noto Sans KR', sans-serif;
 	font-size: 100%;
 	border-radius: 0;
@@ -1651,6 +1658,7 @@ hr {
 }
 
 /* Color Type */
+/* Chocolate */
 .color-chocolate,
 .color-chocolate .cover-footer,
 .color-chocolate #footer {
@@ -1773,6 +1781,159 @@ hr {
 }
 .color-chocolate #header .search.on {
 	border-color: #4e2e28;
+}
+
+/* Dark */ 
+.color-dark,
+.color-dark .cover-footer,
+.color-dark #footer {
+	background-color: #252525 !important;
+}
+
+.color-dark .excerpt,
+.color-dark .related-articles,
+.color-dark #header h1 a,
+.color-dark #gnb ul li a,
+.color-dark #footer .admin,
+.color-dark .og-title .og-desc,
+.color-dark .cover-thumbnail-list ul li a,
+.color-dark .cover-masonry ul li a,
+.color-dark .cover-list ul li a,
+.color-dark .cover-footer p,
+.color-dark .cover-footer .menu ul li a,
+.color-dark .post-item a,
+.color-dark .hgroup h1,
+.color-dark .hgroup .post-meta a,
+.color-dark .entry-content h1,
+.color-dark .entry-content h2,
+.color-dark .entry-content h3,
+.color-dark .entry-content h4,
+.color-dark .entry-content a,
+.color-dark .related-articles ul li a,
+.color-dark .comments .comment-list ul li .author-meta span,
+.color-dark .comments .comment-list ul li .author-meta .date a,
+.color-dark .pagination .selected {
+	color: #f0f0f0 !important;
+}
+.color-dark .nickname,
+.color-dark .prev,
+.color-dark .next,
+.color-dark .post-header,
+.color-dark #header .menu p,
+.color-dark #footer p,
+.color-dark .og-host,
+.color-dark .cover-thumbnail-list ul li .date,
+.color-dark .cover-masonry ul li,
+.color-dark .cover-list ul li,
+.color-dark .cover-list ul li .date,
+.color-dark .post-item,
+.color-dark .post-item .date,
+.color-dark .hgroup .post-meta,
+.color-dark .another-category td,
+.color-dark .tags .items a,
+.color-dark .related-articles ul li .date,
+.color-dark .comments .comment-list ul li .author-meta .date,
+.color-dark .comments .comment-list ul li .author-meta .control a {
+	color: #17cec6 !important;
+}
+.color-dark .title,
+.color-dark .cover-thumbnail-list ul li .category,
+.color-dark .cover-masonry ul li .category,
+.color-dark .hgroup .category {
+	color: #17cec6 !important;
+}
+.color-dark h1,
+.color-dark input,
+.color-dark .btn,
+.color-dark .inner,
+.color-dark .entry-content p,
+.color-dark .entry-content table,
+.color-dark .entry-content ul li,
+.color-dark .entry-content ol li,
+.color-dark .another-category table,
+.color-dark .another-category table th a,
+.color-dark .comments .comment-list ul li p {
+	color: #f0f0f0 !important;
+}
+.color-dark #gnb ul li a:hover,
+.color-dark .cover-footer .menu ul li a:hover,
+.color-dark .cover-thumbnail-list ul li a:hover .title,
+.color-dark .cover-masonry ul li a:hover .title,
+.color-dark .cover-list ul li a:hover .title,
+.color-dark .post-item a:hover .title,
+.color-dark .related-articles ul li a:hover .title {
+	color: #17cec6 !important;
+}
+.color-dark .cover-thumbnail-list ul li .category,
+.color-dark .cover-masonry ul li .category,
+.color-dark .hgroup .category {
+	border-color: #17cec6 !important;
+}
+.color-dark .entry-content ul li:before {
+	background-color: #17cec6 !important;
+}
+.color-dark #header .mobile-menu:before,
+.color-dark #header .mobile-menu:after,
+.color-dark #header .mobile-menu span {
+	background-color: #f0f0f0 !important;
+}
+.color-dark .button:hover,
+.color-dark .cover-slider ul li .btn:hover,
+.color-dark .pagination a:hover,
+.post-header .list-type button:hover,
+.color-dark #header .search:hover:before {
+	background-color: #404040 !important;
+}
+.color-dark .btn,
+.color-dark .cover-thumbnail-list,
+.color-dark .cover-masonry,
+.color-dark .cover-list,
+.color-dark .cover-gallery,
+.color-dark .cover-list ul li,
+.color-dark .post-item,
+.color-dark .hgroup,
+.color-dark .entry-content table,
+.color-dark .entry-content table thead th,
+.color-dark .entry-content table tbody td,
+.color-dark .entry-content blockquote,
+.color-dark .comments,
+.color-dark .comments .comment-list ul li,
+.color-dark .comments .comment-form input[type=text],
+.color-dark .comments .comment-form input[type=password],
+.color-dark .comments .comment-form textarea,
+.color-dark .comments .comment-form .field .secret label:before,
+.color-dark .pagination .prev,
+.color-dark .pagination .next,
+.color-dark .pagination a {
+	border-color: #707070 !important;
+}
+.color-dark .social-link a,
+.color-dark #header .search button,
+.color-dark #header .search:before,
+.color-dark .cover-thumbnail-list ul li .thum:before,
+.color-dark .cover-gallery ul li a:before,
+.color-dark .post-header .list-type button,
+.color-dark .related-articles ul li .thum:before {
+	background-image: url(./images/ico_package_dark.png);
+}
+.color-dark .btn:hover,
+.color-dark ul li .btn:hover,
+.color-dark .pagination .prev:hover,
+.color-dark .pagination .next:hover {
+	border-color: #17cec6 !important;
+}
+.color-dark #header .search.on {
+	border-color: #17cec6 !important;
+}
+.color-dark .menu {
+	background-color: #303030 !important;
+}
+.color-dark .pagination .prev, .pagination .next {
+    background-image: url(./images/ico_package_dark.png) !important;
+}
+.color-dark .category {
+	font-family: 'Noto Sans KR', sans-serif !important;
+	font-weight: bold !important;
 }
 
 /* Retina Display */

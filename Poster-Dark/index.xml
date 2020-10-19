@@ -1,19 +1,21 @@
 <?xml version="1.1" encoding="utf-8"?>
 <skin>
 	<information>
-		<name>Poster</name>
-		<version>1.0</version>
+		<name>Poster-DarkTheme</name>
+		<version>1.1</version>
 		<description>
-			<![CDATA[ 군더더기 없이 글과 이미지를 배열할 수 있는 스킨입니다.  ]]>
+			<![CDATA[ Tisotry's Poster skin with Dark theme. Dark theme by Nitro, https://nitr0.tistory.com/, admin@nitrostudio.dev ]]>
 		</description>
 		<license>
 			<![CDATA[ MIT License ]]>
 		</license>
 	</information>
 	<author>
-		<name>Tistory</name>
+		<name>Tistory (Dark Theme by Nitro)</name>
 		<homepage>http://www.tistory.com</homepage>
+		<homepage>https://nitr0.tistory.com/</homepage>
 		<email>tistoryblog@daum.net</email>
+		<email>admin@nitrostudio.dev</email>
 	</author>
 	<default>
 		<recentEntries>5</recentEntries>
@@ -93,7 +95,7 @@
 			<label><![CDATA[ 컬러 타입 ]]></label>
 			<description><![CDATA[ 포인트 색상을 선택해주세요. ]]></description>
 			<type>SELECT</type>
-			<option><![CDATA[[{"name":"color-gray","label":"기본(Gray)","value":"color-gray"}, {"name":"chocolate","label":"초콜릿(chocolate)","value":"color-chocolate"}]]]></option>
+			<option><![CDATA[[{"name":"color-gray","label":"기본(Gray)","value":"color-gray"}, {"name":"chocolate","label":"초콜릿(chocolate)","value":"color-chocolate"}, {"name":"dark","label":"다크(dark)","value":"color-dark"}]]]></option>
 			<default>color-gray</default>
 		</variable>
 		<variable>
