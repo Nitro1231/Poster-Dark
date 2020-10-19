@@ -13,19 +13,19 @@ Upload all files in "Poster-Dark" folder. Note that files in the image folder sh
 
 ## Preview
 
-![P0](C:\Nitro\Github\Poster-Dark\Preview\P0.png)
+![P0](./Preview/P0.png)
 
 
 
-![P1](C:\Nitro\Github\Poster-Dark\Preview\P1.png)
+![P1](./Preview/P1.png)
 
 
 
-![P2](C:\Nitro\Github\Poster-Dark\Preview\P2.png)
+![P2](./Preview/P2.png)
 
 
 
-![P3](C:\Nitro\Github\Poster-Dark\Preview\P3.png)
+![P3](./Preview/P3.png)
 
 
 
